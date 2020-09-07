@@ -1,0 +1,52 @@
+/* Headings */
+.mainPageHeading {
+  font-size: 72px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.subHeading {
+  font-size: 56px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: rgb(39, 39, 39);
+}
+
+/* for hover effects on cards */
+.shadow-hover {
+  transition-duration: 0.2s;
+  margin: 5px auto;
+}
+
+.shadow-hover:hover {
+  box-shadow: 2px 2px 10px 10px rgba(255, 31, 255, 0.226);
+  background-color: white;
+}
+
+.my-card-details {
+  background-color: rgba(255, 255, 255, 0.651);
+  text-align: left;
+}
+
+.announcement-card:hover {
+  box-shadow: 2px 2px 10px 10px rgba(206, 255, 28, 0.61);
+  background-color: rgb(255, 255, 155);
+}
+
+.poll-card:hover {
+  box-shadow: 2px 2px 10px 10px rgba(10, 187, 98, 0.568);
+  background-color: rgb(141, 219, 255);
+}
+
+.link-card:hover {
+  box-shadow: 2px 2px 10px 10px rgba(255, 1, 1, 0.466);
+  background-color: rgb(250, 159, 174);
+}
+
+.my-flex-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
